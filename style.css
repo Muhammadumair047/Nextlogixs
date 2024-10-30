@@ -1641,7 +1641,7 @@ display: none;
     
     .mobile-menu {
         display: block;
-        background-color:yellow;
+        background-color: black;
         margin: 0;
     }
     
@@ -2144,7 +2144,7 @@ display: none;
 
 .mobile-menu {
     display: block;
-    background-color: yellow;
+    background-color: black;
     margin: 0;
 }
 
