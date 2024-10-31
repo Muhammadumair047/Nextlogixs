@@ -578,7 +578,34 @@ position: relative;
     justify-content: center;
     padding-top: 6%;
   }
+  .test-img{
+    display: flex;
+    padding-top: 1rem;
+    
+  }
+  .user{
+    padding-left: 1rem;
+  }
+  .name{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #000000;
+  }
+  .position{
+    font-size: 16px;
+    color: #4d4d4d;
 
+  }
+.user-img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
   .card {
     background-color: #FFFFFF;
     color: black;
@@ -782,6 +809,15 @@ position: relative;
     padding-left: 4rem;
     margin-right: auto;
     margin-top: 10px;
+}
+form .form:nth-child(2) , .form:nth-child(4){
+    padding-right: 0rem;
+    width: 1350px;
+
+}
+.form:nth-child(3){
+    padding-right: 0;
+    width: 1280px;
 }
 .form input{
    margin-left: 1rem;
@@ -1063,16 +1099,16 @@ padding-bottom: 65px;
     .head-mbl{
         display: flex;
         
-        align-items:flex-start;
+        align-items:center;
     }
     .head-mbl p{
-        width: 100px;
+        width: max-content;
         padding: 0 ;
         margin: 0;
         
     }
     .head-mbl i{
-
+        margin-left:1rem ;
         padding: 0;
     }
     
@@ -1237,12 +1273,19 @@ display: none;
 
 }
 /*Services*/
-
+.serv-first{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
 .services-inner{
     display: block;
-  
+    padding-right:0rem ;
+    padding-left: 0rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
+
 .circle{
     margin-top: 2rem;
 
@@ -1291,6 +1334,9 @@ display: none;
 }
 .services-text{
     padding-left: 0;
+}
+.h1-service{
+    font-size: 28px;
 }
 
  
@@ -1437,6 +1483,14 @@ display: none;
     display: block;
     padding-left: 1rem;
     padding-right: 4rem;
+}
+form .form:nth-child(2) , .form:nth-child(4){
+    padding-right: 2rem;
+    width: auto;
+
+}
+form .form:nth-child(3){
+    width: 81%;
 }
 .form input{
     margin-left: 0;
@@ -1615,7 +1669,7 @@ display: none;
         align-items:center;
     }
     .head-mbl p{
-        width: 100px;
+        width: fit-content;
         padding: 0 ;
         margin: 0;
         
@@ -1840,7 +1894,8 @@ display: none;
 
 .welcome-counselor{
     display: block;
-    padding: 5rem;
+    padding: 3.5rem;
+    padding-top: 5rem;
 }
 .welcome-counselor img{
     padding: 0;
@@ -1868,6 +1923,7 @@ display: none;
 .services-text{
     padding-left: 0;
 }
+
 .h1-service{
     font-size: 28px;
 }
@@ -1939,8 +1995,12 @@ display: none;
   /*Pricing*/
 
   .pricing{
-   padding-left: 150px;
-   padding-right: 150px;
+    padding-top: 3rem;
+   padding-left: 3rem;
+   padding-right: 3rem;
+}
+.pricing h1{
+    font-size: 28px;
 }
 
 
@@ -1957,13 +2017,15 @@ display: none;
 
 .p-card{
     display: block;
-    
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 .price-card{
         padding-top: 3rem;
         padding-right: 1rem;
-        padding-left: 1rem;     
+        padding-left: 1rem; 
+        line-height: 1.15;    
 
 }
 
@@ -2010,8 +2072,17 @@ display: none;
 .form{
     display: block;
     padding-left: 1rem;
-    padding-right: 4rem;
+    padding-right: 0rem;
 }
+form .form:nth-child(2) , .form:nth-child(4){
+    padding-right: 2rem;
+    width: 97%;
+
+}
+form .form:nth-child(3){
+    width: 97%;
+}
+
 .form input{
     margin-left: 0;
     margin-top: .5rem;
@@ -2307,10 +2378,56 @@ display: none !important ;
 }
 
 
-
-
+.form{
+    padding-right: 4rem;
+}
+.form input{
+    width: 244px;
+}
+form .form:nth-child(2), .form:nth-child(4){
+    padding-right: 0rem;
+    margin-right: 0;
+}
+.form textarea{
+    padding-right: .5rem;
 }
 
+.blog{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.blog img{
+    height: 250px;
+}
+.date{
+    margin-left:50px ;
+}
+.blog-inner p{
+    font-family: "Roboto", Arial, sans-serif;
+    background: #fff;
+    font-size: 17px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: gray;
+    padding: 0;
+    margin: 0;
+}
+
+.date{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.price-card{
+    font-size: 17px;
+    line-height: 1.8;
+    
+}
+.price-card p{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+}
 
 /* Large Screens (Desktops) */
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
